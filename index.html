@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Az Medical</title>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- bootstrab 5 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+  <!-- script  for counter-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css"
+    integrity="sha512-gFn7XRm5v3GlgOwAQ80SXDT8pyg6uaV9JbW2OkNx5Im2jR8zx2X/3DbHymcZnUraU+klZjRJqNfNkFN7SyR3fg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--file  style -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed w-100 p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span class="name">az</span> medical</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 m-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">الصفحة الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#who">من نحن</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html#specail" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                التخصصات
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="section1.html">أطفال</a></li>
+                <li><a class="dropdown-item" href="section2.html">باطنة</a></li>
+                <li><a class="dropdown-item" href="section.html">صدر</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact1" tabindex="-1" aria-disabled="true">تواصل معنا</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="ابحث هنا" aria-label="Search">
+            <button class="btn" type="submit">بحث</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="home">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/banner3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h1 class="p-2 animated bounceInRight mb-4" style="animation-delay:1s;">AZ medical</h1>
+            <h3 class="animated bounceInLeft d-none d-md-block" style="animation-delay:2s;">
+              أفضل مجموعة من الأساتذة
+            </h3>
+            <h3 class="animated bounceInLeft d-none d-md-block" style="animation-delay:3s;">
+              والإستشاريين المتميزين لخدمة
+            </h3>
+            <h3 class="animated bounceInLeft d-none d-md-block" style="animation-delay:4s;">
+              و رعاية المرضى
+            </h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h1 class="p-2 animated bounceInRight mb-4" style="animation-delay:1s;">AZ medical</h1>
+            <h3 class="animated bounceInLeft d-none d-md-block" style="animation-delay:2s;">
+              يتميز المركز بوجود وحدة طوارئ </h3>
+            <h3 class="animated bounceInLeft d-none d-md-block" style="animation-delay:3s;">
+              مجهزة بأحدث التجهيزات الطبية
+            </h3>
+            <h3 class="animated bounceInLeft d-none d-md-block" style="animation-delay:4s;">
+              والمستلزمات الصحية
+            </h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/istockphoto-1324705626-612x612.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption  service">
+            <h1 class="p-2 animated bounceInRight mb-4" style="animation-delay:1s;">AZ medical</h1>
+            <h3 class="animated bounceInLeft d-none d-md-block" style="animation-delay:2s;">
+              خدمة متميزة 24 ساعة مسئولة عن تقديم
+            </h3>
+            <h3 class="animated bounceInLeft d-none d-md-block" style="animation-delay:3s;">
+              الرعاية الصحية للمرضى من خلال طاقم طبي
+            </h3>
+            <h3 class="animated bounceInLeft d-none d-md-block" style="animation-delay:4s;">
+              متخصص وأجهزة طبية متخصصة
+            </h3>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="overlay"></div>
+  </section>
+  <!--book button  -->
+  <div class="book">
+    <a href="contact.html">
+      للحجز
+    </a>
+  </div>
+  <!-- start section about -->
+  <section class="container about">
+    <div class="under-line">
+      <h2 id="who">
+        من نحن
+      </h2>
+    </div>
+    <p class="pe-5 ps-5  text-center lead">
+      تعد مجموعة مستشفيات أزميديكال أكبر مجموعة مستشفيات تابعة للقطاع الخاص في مصر من حيث عدد الأسرة، وكذلك المستشفيات
+      التابعةهدفنا حسين الحالة الصحية لأهلنا وللعالم من حولنا عبر تقديم خدمة متميزة فى الباطنة والأطفال وأمراض الصدر
+    </p>
+    <div class="row row-cols-1 row-cols-md-3 g-4 ">
+      <div class="col col-md-6">
+        <div class="card h-100">
+          <div class="card-body pt-4">
+            <h3>أهم ما يميزنا:</h3>
+            <ul class="card-text">
+              <li class="lead"><i class="fa-solid fa-check"></i>
+                يوجد لدينا عدداً من أقسام الرعاية الطبية المختلفة بكافةالتخصصات مع توفير نخبة مميزة من الكوادر الطبية
+              </li>
+              <li class="lead"><i class="fa-solid fa-check"></i>
+                يوجد لدينا عدداً من أقسام الرعاية الطبية المختلفة بكافةالتخصصات مع توفير نخبة مميزة من الكوادر الطبية
+              </li class="lead">
+              </li>
+              <li class="lead"><i class="fa-solid fa-check"></i>
+                يوجد لدينا عدداً من أقسام الرعاية الطبية المختلفة بكافةالتخصصات مع توفير نخبة مميزة من الكوادر الطبية
+              </li>
+              <li class="lead"><i class="fa-solid fa-check"></i> يوجد لدينا عدداً من أقسام الرعاية الطبية المختلفة بكافة
+                التخصصات مع توفير نخبة مميزة من الكوادر الطبية </li>
+              <li class="lead"><i class="fa-solid fa-check"></i> يوجد لدينا عدداً من أقسام الرعاية الطبية المختلفة بكافة
+                التخصصات مع توفير نخبة مميزة من الكوادر الطبية </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col col-md-6">
+        <div class="card h-100 card-about-hover ">
+          <img src="images/istockphoto-1337213352-612x612.jpg" class="card-img-hover card-img-hover1" alt="img">
+          <img src="images/istockphoto-1346124955-612x612.jpg" class="card-img-hover card-img-hover2 " alt="img">
+          <div class="about-img img-overly">
+            <i class="fa-solid fa-heart about-heart"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="counter-section">
+    <div class="container">
+      <div class="row text-center p-5">
+        <div class="col-md-3 counter-box">
+          <i class="fa-solid fa-stethoscope icon"></i>
+          <p class="counter">90</p>
+          <h3> التخصصات</h3>
+        </div>
+        <div class="col-md-3 counter-box">
+          <i class="fa-solid fa-user-check icon"></i>
+          <p class="counter">3000</p>
+          <h3> الزائرين</h3>
+        </div>
+        <div class="col-md-3 counter-box">
+          <i class="fa-solid fa-hospital icon"></i>
+          <p class="counter">300</p>
+          <h3>الفروع </h3>
+        </div>
+        <div class="col-md-3 counter-box">
+          <i class="fa-solid fa-user-doctor icon"></i>
+          <p class="counter">1500</p>
+          <h3> الأطباء</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- start section cards -->
+  <section class="container index-cards">
+    <div class="under-line">
+      <h2 id="specail">التخصصات</h2>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 card-box">
+          <img src="images/istockphoto-1194794294-612x612.jpg" class="card-img-top img hover" alt="img"
+            title="قسم الأطفال">
+          <div class="card-body">
+            <h4 class="card-title"><i class="fa-solid fa-baby"></i> الأطفال</h4>
+            <p class="card-text lead">
+              يقدم القسم الرعاية الخاصة بالأطفال وحديثي الولادة كما يوجد خدمات طبية حديثة واستثنائية في عدة مجالات
+              كالقلب والغدد الصماء
+            </p>
+            <button type="button" class="btn btn-sm d-flex justify-content-center"> <a href="section1.html">قراءة المزيد
+                <i class="fa-solid fa-arrow-right-long btn-icon"></i></a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 card-box">
+          <img src="images/istockphoto-613751066-612x612.jpg" class="card-img-top img" alt="img" title="قسم  الباطنة">
+          <div class="card-body">
+            <h4 class="card-title"><i class="fa-solid fa-stethoscope icon"></i> الباطنة</h4>
+            <p class="card-text lead">
+              يشتمل قسم الباطنة على العديد من التخصصات مثل :الجهاز الهضمي, الكلى والكبد كما يوجد في المركز وحدة الغدد
+              الصماء , ووحدة أمراض الكلى
+            </p>
+            <button type="button" class="btn btn-sm d-flex justify-content-center"> <a href="section2.html">قراءة المزيد
+                <i class="fa-solid fa-arrow-right-long btn-icon"></i></a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 card-box">
+          <img src="images/istockphoto-871584922-612x612.jpg" class="card-img-top img" alt="img" title="قسم  الصدر">
+          <div class="card-body">
+            <h4 class="card-title"><i class="fa-solid fa-lungs"></i> الصدر </h4>
+            <p class="card-text lead"> يقوم المركز بتشخيص وعلاج أمراض الصدر المزمنة ويتوفر بالمركز أحدث أجهزة قياس قدرة
+              الرئة والتنفس كما يوجد قسم للرغاية المركزة</p>
+            <button type="button" class="btn btn-sm d-flex justify-content-center">
+              <a href="section.html">
+                قراءة المزيد <i class="fa-solid fa-arrow-right-long btn-icon"></i> </a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end section cards -->
+  <section class="gallary">
+    <div class="under-line">
+      <h2>معرض</h2>
+    </div>
+    <div class="container">
+      <div class="row  ">
+        <div class="col-md-3">
+          <div class="card card-gallary">
+            <img src="img/gallery-2.jpg">
+            <img class="img-gallary" src="img/istockphoto-962531822-612x612.jpg">
+            <div class="baground-gallary">
+              <ul class="icon d-flex justify-content-center">
+                <li><a href="#"><i class="fa-brands icon-items fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-linkedin-in"></i></a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card card-gallary">
+            <img src="img/istockphoto-874165222-612x612.jpg">
+            <img class="img-gallary" src="img/gallery-8.jpg">
+            <div class="baground-gallary">
+              <ul class="icon d-flex justify-content-center">
+                <li><a href="#"><i class="fa-brands icon-items fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card card-gallary">
+            <img src="img/gallery-1.jpg">
+            <img class="img-gallary" src="img/gallery-7.jpg">
+            <div class="baground-gallary">
+              <ul class="icon d-flex justify-content-center">
+                <li><a href="#"><i class="fa-brands icon-items fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card card-gallary">
+            <img src="img/gallery-5.jpg">
+            <img class="img-gallary" src="img/gallery-3.jpg">
+            <div class="baground-gallary">
+              <ul class="icon d-flex justify-content-center ">
+                <li><a href="#"><i class="fa-brands icon-items fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-md-3">
+          <div class="card card-gallary">
+            <img src="img/gallery-3.jpg">
+            <img class="img-gallary" src="img/gallery-1.jpg">
+            <div class="baground-gallary">
+              <ul class="icon d-flex justify-content-center">
+                <li><a href="#"><i class="fa-brands icon-items fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-gallary">
+            <img src="img/gallery-1.jpg">
+            <img class="img-gallary" src="img/gallery-2.jpg">
+            <div class="baground-gallary">
+              <ul class="icon d-flex justify-content-center">
+                <li><a href="#"><i class="fa-brands icon-items fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card card-gallary">
+            <img src="img/gallery-8.jpg">
+            <img class="img-gallary" src="img/gallery-5.jpg">
+            <div class="baground-gallary">
+              <ul class="icon d-flex justify-content-center">
+                <li><a href="#"><i class="fa-brands icon-items fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card card-gallary">
+            <img src="img/gallery-2.jpg">
+            <img class="img-gallary" src="img/gallery-6.jpg">
+            <div class="baground-gallary">
+              <ul class="icon d-flex justify-content-center">
+                <li><a href="#"><i class="fa-brands icon-items fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands icon-items fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- end gallary -->
+
+  <section>
+    <div class="under-line">
+      <h2 id="contact1">تواصل معنا</h2>
+    </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110532.72973996772!2d31.44337521914659!3d30.032617221100075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c1380cba7ef%3A0xd541260e9e06978d!2z2YXYr9mK2YbYqSDZhti12LHYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKw!5e0!3m2!1sar!2seg!4v1649619559638!5m2!1sar!2seg"
+      width="100%" height="200px" style="border:2px;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <div class="col">
+
+          <h3 class="mb-4 text-end fw-bold">AZ medical</h3>
+          <div class="text-end">
+            <p>يقوم المركز بتقديم الرعاية الصحية للمرضى من خلال طاقم طبي متخصص وأجهزة طبية على أحدث مستوى والتي تشكل جزء
+              حيوي من خدمات الصحة العامة</p>
+          </div>
+        </div>
+        <div class="col">
+          <h3 class="mb-4 fw-bold">احجز الآن</h3>
+          <p><a class="icon-footer" href="#">الباطنة <i class="fa-solid fa-check"></i></a></p>
+          <p><a class="icon-footer" href="#">الأطفال <i class="fa-solid fa-check"></i></a></p>
+          <p><a class="icon-footer" href="#">الصدر <i class="fa-solid fa-check"></i></i></a></p>
+        </div>
+        <div class="col">
+          <h3 class="mb-4 fw-bold">العنوان</h3>
+          <a class="icon-footer" href="">
+            <p>كفر الشيخ - الرياض</p>
+          </a>
+          <a href="#">
+            <p>القاهرة - مدينة نصر</p>
+          </a>
+          <a class="icon-footer" href="#"></a>
+          <a class="icon-footer" href="#"></a>
+        </div>
+        <div class="col">
+          <a href="#" class="icon-link"><i class="fa-brands fa-twitter icon icon-footer"></i></a>
+          <a href="#" class="icon-link"><i class="fa-brands fa-facebook-f icon icon-footer"></i></a>
+          <a href="#" class="icon-link"><i class="fa-brands fa-instagram icon icon-footer"></i></a>
+        </div>
+        <div class="col end m-auto col-sm-12 text-center">
+          <p class="pt-5 mb-0">
+            Copyright @Copyright 2022 All rights reserved | This template is made with
+            <i class="fa-solid fa-heart"></i> by <a class="icon-footer" href="#" target="_blank" class="d-inline">Asmaa
+              & Abeer</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer><!-- end footer -->
+  <a href="#"><span class="up"><i class="fa-solid fa-angle-up"></i></span></a>
+  <!-- font awesome -->
+  <script src="js/all.min.js"></script>
+  <!-- bootstrab 5  -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- jquery -->
+  <script src="js/jquery.counterup.min.js"></script>
+  <!-- counter  js-->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="jquery.counterup.min.js"></script>
+  <!-- js -->
+  <script src="js/code.js"></script>
+</body>
+
+</html>
